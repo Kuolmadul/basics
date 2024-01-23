@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+  <style>
+    body {
+      background-image: images/image2.jpg;
+    }
+    ol{
+      background-image:image2.jpg;
+      background-color: aqua;
+      color:blue;
+
+    }
+ol.one{
+  list-style-type:circle;
+  text-align: left;
+
+}
+    ul.two{
+  list-style-type:upper-roman;
+      text-after-overflow:right;
+}
+
+ol {
+  background:yellow;
+  padding: 50px;
+  color: darkgrey;
+}
+
+ul {
+  background:cadetblue;
+  padding: 50px;
+}
+h3{
+  float: end;
+}
+
+ol>li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 20px;
+  margin-left: 35px;
+  border-radius: 60px;
+  border: black 20px double;
+  cursor:pointer;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+  border-radius: 50px;
+  border: black  10px solid;
+  padding: 20px;
+}
+
+
+dl li {
+  background-color:saddlebrown;
+  color: darkblue;
+  margin: 5px;
+  border-radius: 40px;
+  border: black 10px solid;
+  padding: 20px;
+}
+
+li{
+  cursor:grab;
+}
+
+li:hover{
+  background-color:black;
+}
+
+p> b{
+  color: red;
+}
+
+p> .white b{
+  color: red;
+}
+
+p>.ll{
+  color: blue;
+}
+
+
+  </style>
+</head>
+<body>
+<p class="white" title="This is a title"> This is a <b>list</b> of groceries</p>
+
+<h3 class="a"><u>Ordered <b>Lists</b></u></h3>
+
+<div class="one">
+
+<ol class="one">
+<li>Garlic</li>
+  <li>Spinach</li>
+  <li>Cabbage</li>
+  <li>Mint</li>
+  <li>Carrot</li>
+  <li>Cow pees</li>
+</ol>
+</div>
+
+<p class="ll" title="This is a title">This is a <b>list</b> of fruits</p>
+<h3 class="b"><u><b>Unordered list</b></u></h3>
+  <div class="two">
+<ul class="two">
+  <li><i>mango</i></li>
+  <li><i>apple</i></li>
+  <li><i>grapes</i></li>
+  <li><i>grapes</i></li>
+</ul>
+</div>
+
+
+
+<h3><u>Defined <b>list</b></u></h3>
+  <div class="three">
+<dl>
+  <li>blue</li>
+  <li>red</li>
+  <li>orange</li>
+  <li>black</li>
+</dl>
+</div>
+
+</body>
+</html>

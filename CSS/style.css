@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+    margin: 40px;
+    text-align: end;
+}
+
+.one{
+    color: red;
+    border: black 20px double;
+    border-radius: 70px;
+    font-size: 30px;
+}
+.two{
+    color: blue;
+    border: red 10px solid;
+    border-radius: 60px;
+    font-size: 40px;
+}
+.three{
+    color: black;
+    border: blue 40px double;
+    border-radius: 50px;
+    font-size: 30px;
+
+}
+.four{
+    color: brown;
+    border: yellow 50px solid;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
